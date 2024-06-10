@@ -1,0 +1,19 @@
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 8s linear ;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.hov:hover {
+    /*color: firebrick;*/
+    background-color:firebrick ;
+}
